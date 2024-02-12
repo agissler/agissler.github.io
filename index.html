@@ -4,6 +4,19 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      jax: ["input/TeX", "output/HTML-CSS"],
+      extensions: ["tex2jax.js"],
+      "HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] },
+      tex2jax: { inlineMath: [ ["$", "$"], ["\\(","\\)"] ], displayMath: [ ["$$","$$"], ["\\[", "\\]"] ], processEscapes: true, ignoreClass: "tex2jax_ignore|dno" },
+      TeX: { noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } } },
+      messageStyle: "none"
+    });
+    </script>    
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
+
 <html>
 
 
@@ -60,6 +73,37 @@
 										<header class="major">
 											<h2>Publications</h2>	
 										</header>
+
+											<h3>Preprints</h3>
+											<details><summary><a href="https://arxiv.org/pdf/2402.06447.pdf" target=”_blank”>On the irreducibility and convergence of a class of nonsmooth nonlinear state-space models on manifolds</a>, Armand Gissler, Alain Durmus, Anne Auger, 2024 </summary>
+												<div class="features">
+												<article>
+													<div class="content">
+														<h5>Abstract: </h5>
+														In this paper, we analyze a large class of general nonlinear state-space models on a state-space $\mathsf X$, defined by the recursion $\phi_{k+1}  = F(\phi_k,\alpha(\phi_k,U_{k+1}))$, $k \in\mathbb N$, where $F,\alpha$ are some functions and $\{U_{k+1}\}_{k\in\mathbb N}$ is a sequence of i.i.d. random variables.
+														More precisely, we
+														extend conditions under which this class of Markov chains is irreducible, aperiodic and satisfies important continuity properties, 
+														relaxing two key assumptions from prior works. 
+														First, the state-space $\mathsf X$ is supposed to be a smooth manifold instead of an open subset of a Euclidean space.
+														Second, we only suppose that $F$ is locally Lipschitz continuous.
+			
+			
+														We demonstrate the significance of our results through their application
+														to Markov chains underlying optimization algorithms. 
+														These schemes belong to the class of evolution strategies with covariance matrix adaptation and step-size adaptation.	
+													</div>
+												</article>
+												<article>
+													<br>
+													<span class="image object">
+														<img width="300" src="images/illustration-globally-attracting-states.png" alt="" />
+													</span>
+												</article>
+												</div>
+											</details>
+
+											<br>
+
 											<h3>Journal articles</h3>
 											<details><summary><a href="https://inria.hal.science/hal-04386103v1/document" target=”_blank”>Asymptotic estimations of a perturbed symmetric eigenproblem</a>, Armand Gissler, Anne Auger, Nikolaus Hansen. In <i>Applied Mathematics Letters</i>, 2023 </summary>
 												<div class="features">
